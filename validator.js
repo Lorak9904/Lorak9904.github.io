@@ -25,4 +25,4 @@ function handleRequest() {
 }
 
 // Call the handleRequest function when the page loads
-window.addEventListener('load', handleRequest);
+window.addEventListener('DOMContentLoaded', handleRequest);
