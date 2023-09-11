@@ -4,7 +4,7 @@ const validTokens = ['0001', '0002', '0003'];
 // Function to check if a token is valid
 function isValidToken(token) {
     return validTokens.includes(token);
-}
+} 
 
 // Handle a request with a token sent from Python
 function handleRequest() {
