@@ -40,3 +40,5 @@ function handleRequest() {
 
 // Call the handleRequest function when the page loads
 window.addEventListener('DOMContentLoaded', handleRequest);
+
+
