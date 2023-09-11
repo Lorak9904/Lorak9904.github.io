@@ -2,16 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>API Example</title>
+    <title>Token List</title>
 </head>
 <body>
-    <h1>API Response:</h1>
-    <h2>kiedy się zaktualizuje</h2>
-    <h2>kiedy się zaktualizuje2</h2>
-    <div id="api-response"></div>
+    <h1>Token List</h1>
+    <div id="token-list"></div>
 
-    <script src="validator.js">
-       
+    <script>
+        // Define the list of tokens
+        const tokenList = ['0001', '0002', '0003', '0004'];
+
+        // Send the list of tokens as a JSON response
+        const jsonTokenList = JSON.stringify(tokenList);
+
+        // Display the list on the webpage
+        const tokenListElement = document.getElementById('token-list');
+        tokenListElement.textContent = jsonTokenList;
     </script>
 </body>
 </html>
