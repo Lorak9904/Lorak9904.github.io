@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "user": "0001",
+            "permission": "granted"
+        },
+        {
+            "user": "0002",
+            "permission": "denied"
+        },
+        {
+            "user": "0003",
+            "permission": "denied"
+        },
+        {
+            "user": "0004",
+            "permission": "granted"
+        },
+        {
+            "user": "0005",
+            "permission": "denied"
+        }
+    ]
+}
