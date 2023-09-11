@@ -8,23 +8,8 @@
     <h1>API Response:</h1>
     <div id="api-response"></div>
 
-    <script>
-        const authToken = 'your-authentication-token'; // Replace with your token
-        const apiUrl = 'https://api.example.com/data'; // Replace with the API endpoint URL
-
-        fetch(apiUrl, {
-            method: 'GET',
-            headers: {
-                'Authorization': `Bearer ${authToken}`
-            }
-        })
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById('api-response').textContent = JSON.stringify(data, null, 2);
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
+    <script src="validator.js">
+       
     </script>
 </body>
 </html>
