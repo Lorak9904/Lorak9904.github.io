@@ -27,10 +27,15 @@ function handleRequest() {
         // You can provide an error message or additional information here
     }
 
-    // Send the response message back to Python
-    // In this example, we're using alert, but you can replace this with any method
-    // to communicate the response back to your Python script
-    alert(responseMessage);
+    // Create a JSON response object
+    const jsonResponse = { message: responseMessage };
+
+    // Send the JSON response back to Python
+    // Convert the object to a JSON string
+    const jsonStr = JSON.stringify(jsonResponse);
+
+    // Send the JSON string back to Python
+    window.location.href = 'data:text/json;charset=utf-8,' + encodeURIComponent(jsonStr);
 }
 
 // Call the handleRequest function when the page loads
