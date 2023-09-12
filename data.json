@@ -1,16 +1,16 @@
 {
     "data": [
         {
-            "user": "0001",
+            "user": "LOGWINCLN-JWNJZ",
             "permission": "granted"
         },
         {
             "user": "0002",
-            "permission": "denied"
+            "permission": "granted"
         },
         {
             "user": "0003",
-            "permission": "denied"
+            "permission": "granted"
         },
         {
             "user": "0004",
