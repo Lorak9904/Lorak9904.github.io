@@ -12,6 +12,19 @@
             background: #f4f4f4;
             text-align: center;
         }
+        .qr-code {
+            margin: 20px 0;
+            display: inline-block;
+            animation: pulse 1.5s infinite;
+        }
+        .qr-code img {
+            width: 200px;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
         .container {
             max-width: 800px;
             margin: 50px auto;
@@ -62,10 +75,10 @@
   </p>
       <a href="https://hovqr.to/704c2280">
         <div class="qr-code">
-            <img src="CA_track.png" alt="Click or scan to see the project" width="200">
+            <img src="CA_track_3.png" alt="Click or scan to see the project" width="200">
           </div>
         </a>
-        <p>Scan the QR code to see the app in real world!</p>
+        <p>Click or scan the QR code to see the app in real world!</p>
         <a href="https://www.linkedin.com/in/karol-obrebski/" class="cta-button">Get in Touch</a>
     </div>
 </body>
